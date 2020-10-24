@@ -14,9 +14,6 @@ public class EnemyPatrol : MonoBehaviour
     void Start()
     {
         target = waypoints[0];
-        if(graphics == null){
-            graphics = GetComponent<SpriteRenderer>();
-        }
     }
 
     void Update()
