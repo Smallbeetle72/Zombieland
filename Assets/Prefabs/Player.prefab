@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 7162353122720565126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.5109997, y: -2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 7162353123930664310}
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -4031619653288768660, guid: 42ed6c23004c81f4e8814dd54e8ba7a9,
+  m_Sprite: {fileID: 9101278813714116849, guid: 474a2de499f8d1343a07ede565e8cad1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 250
   climbSpeed: 150
-  jumpForce: 300
+  jumpForce: 400
   isClimbing: 0
   groundCheck: {fileID: 7162353123930664310}
   groundCheckRadius: 0.4
@@ -186,8 +186,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.027704597, y: -0.29768634}
-  m_Size: {x: 0.9656954, y: 1.4046273}
+  m_Offset: {x: -0.02692318, y: -0.021986008}
+  m_Size: {x: 0.3487234, y: 0.71183705}
   m_Direction: 0
 --- !u!1 &7162353123930664311
 GameObject:
@@ -213,7 +213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7162353123930664311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.035, y: -0.703, z: 0}
+  m_LocalPosition: {x: 0, y: -0.414, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7162353122720565121}
