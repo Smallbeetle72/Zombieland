@@ -105,7 +105,7 @@ MonoBehaviour:
   jumpForce: 400
   isClimbing: 0
   groundCheck: {fileID: 7162353123930664310}
-  groundCheckRadius: 0.4
+  groundCheckRadius: 0.2
   collisionLayers:
     serializedVersion: 2
     m_Bits: 1
@@ -186,8 +186,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02692318, y: -0.021986008}
-  m_Size: {x: 0.3487234, y: 0.71183705}
+  m_Offset: {x: 0, y: -0.021986008}
+  m_Size: {x: 0.2811923, y: 0.71183705}
   m_Direction: 0
 --- !u!1 &7162353123930664311
 GameObject:
@@ -213,7 +213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7162353123930664311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.414, z: 0}
+  m_LocalPosition: {x: 0, y: -0.297, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7162353122720565121}
