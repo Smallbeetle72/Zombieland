@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 9101278813714116849, guid: 474a2de499f8d1343a07ede565e8cad1,
+  m_Sprite: {fileID: 8316397080161286800, guid: 474a2de499f8d1343a07ede565e8cad1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -100,9 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d20ac87c8cc267f40b22a85f3dcde2d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 250
-  climbSpeed: 150
-  jumpForce: 400
+  moveSpeed: 200
+  climbSpeed: 300
+  jumpForce: 300
   isClimbing: 0
   groundCheck: {fileID: 7162353123930664310}
   groundCheckRadius: 0.2

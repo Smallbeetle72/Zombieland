@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public bool isClimbing;
 
+    public bool canClimb = false;
+
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask collisionLayers;
@@ -25,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
     private float verticalMovement;
 
     public static PlayerMovement instance;
+
+    public float m_gravityOnClimb = 2f;
 
     private void Awake()
     {
@@ -64,21 +68,30 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isClimbing)
         {
-            Vector3 targetVelocity = new Vector2(_horizontalMovement, rb.velocity.y);
-            rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
+
+            Vector3 targetVelocity = Vector2.zero;
+            if (!isGrounded && Mathf.Approximately(rb.velocity.y, 0f))
+            {
+                targetVelocity = new Vector2(0f, -m_gravityOnClimb);
+            }
+            else
+            {
+                targetVelocity = new Vector2(_horizontalMovement, rb.velocity.y);
+            }
 
             if (isJumping)
             {
                 rb.AddForce(new Vector2(0f, jumpForce));
                 isJumping = false;
             }
+            rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
+
         }
         else
         {
             Vector3 targetVelocity = new Vector2(0, _verticalMovement);
             rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
         }
-        
     }
 
     void Flip(float _velocity)
