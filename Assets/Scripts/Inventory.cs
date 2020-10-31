@@ -78,6 +78,10 @@ public class Inventory : MonoBehaviour
 
     public void UpdateInventoryUI()
     {
+        if(itemImageUI == null || itemNameUI == null)
+        {
+            return;
+        }
         if(content.Count > 0)
         {
             itemImageUI.sprite = content[contentCurrentIndex].image;

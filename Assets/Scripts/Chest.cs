@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Chest : MonoBehaviour
@@ -9,6 +10,9 @@ public class Chest : MonoBehaviour
     public Animator animator;
     public int coinsToAdd;
     public AudioClip soundToPlay;
+
+    public GameObject m_revealNumberGO;
+
 
     void Awake()
     {
@@ -26,10 +30,13 @@ public class Chest : MonoBehaviour
     void OpenChest()
     {
         animator.SetTrigger("OpenChest");
-        Inventory.instance.AddCoins(coinsToAdd);
+        //Inventory.instance.AddCoins(coinsToAdd);
         AudioManager.instance.PlayClipAt(soundToPlay, transform.position);
         GetComponent<BoxCollider2D>().enabled = false;
         interactUI.enabled = false;
+
+        
+        StartCoroutine(RevealNumber());
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -48,5 +55,21 @@ public class Chest : MonoBehaviour
             interactUI.enabled = false;
             isInRange = false;
         }
+    }
+
+    IEnumerator RevealNumber()
+    {
+        if (m_revealNumberGO != null)
+        {
+            Image img = m_revealNumberGO.GetComponent<Image>();
+            Color c = Color.black;
+            while(img.color.a > 0f)
+            {
+                c.a -= Time.deltaTime;
+                img.color = c;
+                yield return null;
+            }
+        }
+
     }
 }

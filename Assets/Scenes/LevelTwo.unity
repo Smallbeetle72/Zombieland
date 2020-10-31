@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 12290744}
   - component: {fileID: 12290743}
   - component: {fileID: 12290742}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 111008977}
   - component: {fileID: 111008976}
   - component: {fileID: 111008975}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2469,7 +2469,7 @@ GameObject:
   - component: {fileID: 206275267}
   - component: {fileID: 206275266}
   - component: {fileID: 206275265}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2901,7 +2901,7 @@ GameObject:
   - component: {fileID: 238715817}
   - component: {fileID: 238715816}
   - component: {fileID: 238715815}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3252,7 +3252,7 @@ GameObject:
   - component: {fileID: 250392417}
   - component: {fileID: 250392416}
   - component: {fileID: 250392415}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4064,6 +4064,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4001902794826046523, guid: 41966df9bf4c44940a427e780b200cd6,
+        type: 3}
+      propertyPath: m_revealNumberGO
+      value: 
+      objectReference: {fileID: 1470595930}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41966df9bf4c44940a427e780b200cd6, type: 3}
 --- !u!1 &342054844
@@ -4158,7 +4163,7 @@ GameObject:
   - component: {fileID: 346855037}
   - component: {fileID: 346855036}
   - component: {fileID: 346855035}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8454,7 +8459,7 @@ GameObject:
   - component: {fileID: 533176630}
   - component: {fileID: 533176629}
   - component: {fileID: 533176628}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10870,7 +10875,7 @@ GameObject:
   - component: {fileID: 721976594}
   - component: {fileID: 721976593}
   - component: {fileID: 721976592}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12448,6 +12453,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4001902794826046523, guid: 41966df9bf4c44940a427e780b200cd6,
+        type: 3}
+      propertyPath: m_revealNumberGO
+      value: 
+      objectReference: {fileID: 1234986570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41966df9bf4c44940a427e780b200cd6, type: 3}
 --- !u!1 &880849823
@@ -13023,7 +13033,7 @@ GameObject:
   - component: {fileID: 993812301}
   - component: {fileID: 993812300}
   - component: {fileID: 993812299}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13293,7 +13303,7 @@ GameObject:
   - component: {fileID: 1029631413}
   - component: {fileID: 1029631412}
   - component: {fileID: 1029631411}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14602,6 +14612,18 @@ Transform:
   m_Father: {fileID: 1557178826}
   m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1201776824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4522915310587383603, guid: 1851ecb81a093854d8b5dc831774cd76,
+    type: 3}
+  m_PrefabInstance: {fileID: 6336967916785253061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1234986570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6376814938488404105, guid: 1851ecb81a093854d8b5dc831774cd76,
+    type: 3}
+  m_PrefabInstance: {fileID: 6336967916785253061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1238950405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14887,7 +14909,7 @@ GameObject:
   - component: {fileID: 1288510837}
   - component: {fileID: 1288510836}
   - component: {fileID: 1288510835}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15175,7 +15197,7 @@ GameObject:
   - component: {fileID: 1323691251}
   - component: {fileID: 1323691250}
   - component: {fileID: 1323691249}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15694,7 +15716,7 @@ GameObject:
   - component: {fileID: 1351612857}
   - component: {fileID: 1351612856}
   - component: {fileID: 1351612855}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16813,6 +16835,12 @@ Transform:
   m_Father: {fileID: 1557178826}
   m_RootOrder: 157
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1470595930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7415788592235748948, guid: 1851ecb81a093854d8b5dc831774cd76,
+    type: 3}
+  m_PrefabInstance: {fileID: 6336967916785253061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1474259106
 GameObject:
   m_ObjectHideFlags: 0
@@ -19931,7 +19959,7 @@ GameObject:
   - component: {fileID: 1714447838}
   - component: {fileID: 1714447837}
   - component: {fileID: 1714447836}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: fondations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30834,7 +30862,7 @@ GameObject:
   - component: {fileID: 1922431132}
   - component: {fileID: 1922431131}
   - component: {fileID: 1922431130}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31241,6 +31269,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4001902794826046523, guid: 41966df9bf4c44940a427e780b200cd6,
+        type: 3}
+      propertyPath: m_revealNumberGO
+      value: 
+      objectReference: {fileID: 1201776824}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41966df9bf4c44940a427e780b200cd6, type: 3}
 --- !u!1 &1982954663
@@ -37637,7 +37670,7 @@ GameObject:
   - component: {fileID: 2112614299}
   - component: {fileID: 2112614298}
   - component: {fileID: 2112614297}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Crate (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38388,6 +38421,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 737803516}
+    - target: {fileID: 2354749407529783187, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Text
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653347222409041970, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Text
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702971148277740110, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Text
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4925972407339839244, guid: 1851ecb81a093854d8b5dc831774cd76,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -38749,27 +38797,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7162353122720565122, guid: c9b112e35d457d14f82aa6cf7e0736b4,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 8316397080161286800, guid: 474a2de499f8d1343a07ede565e8cad1,
-        type: 3}
-    - target: {fileID: 7162353122720565123, guid: c9b112e35d457d14f82aa6cf7e0736b4,
-        type: 3}
-      propertyPath: jumpForce
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 7162353122720565123, guid: c9b112e35d457d14f82aa6cf7e0736b4,
-        type: 3}
-      propertyPath: climbSpeed
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 7162353122720565123, guid: c9b112e35d457d14f82aa6cf7e0736b4,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 7162353122720565126, guid: c9b112e35d457d14f82aa6cf7e0736b4,
         type: 3}

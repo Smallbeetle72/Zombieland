@@ -121,6 +121,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1be692b210dc1e4ba95e57dd5298fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level02
-  fadeSystem: {fileID: 0}
-  endLevelSound: {fileID: 8300000, guid: b2030666e2ff7d948b40c9c66db4e464, type: 3}
+  sceneName: LevelTwo

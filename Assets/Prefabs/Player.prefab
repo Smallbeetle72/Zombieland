@@ -101,18 +101,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 200
-  climbSpeed: 300
+  climbSpeed: 500
   jumpForce: 300
   isClimbing: 0
+  canClimb: 1
   groundCheck: {fileID: 7162353123930664310}
-  groundCheckRadius: 0.2
+  groundCheckRadius: 0.1
   collisionLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 512
   rb: {fileID: 7162353122720565124}
   animator: {fileID: 7162353122720565135}
   spriteRenderer: {fileID: 7162353122720565122}
   playerCollider: {fileID: 7162353122720565125}
+  m_gravityOnClimb: 2
 --- !u!50 &7162353122720565124
 Rigidbody2D:
   serializedVersion: 4
@@ -213,7 +215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7162353123930664311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.297, z: 0}
+  m_LocalPosition: {x: 0, y: -0.408, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7162353122720565121}
