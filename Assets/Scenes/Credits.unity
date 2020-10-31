@@ -220,80 +220,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &259042890
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 259042891}
-  - component: {fileID: 259042893}
-  - component: {fileID: 259042892}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &259042891
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 259042890}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1446187204}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00036621, y: -540}
-  m_SizeDelta: {x: 300, y: 300}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &259042892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 259042890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b9a928a9c9d956a468fc76aa555caac8, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &259042893
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 259042890}
-  m_CullTransparentMesh: 0
 --- !u!1 &934972444
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,14 +399,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2021327298}
-  - {fileID: 259042891}
   m_Father: {fileID: 108738457}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -3631}
-  m_SizeDelta: {x: 0, y: 7262.2847}
+  m_AnchoredPosition: {x: 0, y: -700}
+  m_SizeDelta: {x: 0, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1446187205
 Animator:
@@ -547,8 +472,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.00037003, y: -3631}
-  m_SizeDelta: {x: 1617.9722, y: 7262.035}
+  m_AnchoredPosition: {x: 0.00037003, y: 2300}
+  m_SizeDelta: {x: 1617.9722, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2021327299
 MonoBehaviour:
@@ -582,12 +507,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<SIZE=200><B>ZOMBIELAND</B>\r</SIZE>\r\n\r\n<SIZE=120>CE JEU A ETE CREE
-    PAR JEREMY ET AUDREY GRACE A UN MEC ET SON TUTO SUR YOUTUBE MAIS SURTOUT GRACE
-    A JEREMY</120>\r\n\n<SIZE=120>- DECORS -</120>\r\n<SIZE=100>AUDREY</100>\r\n<SIZE=60>FREE
-    GRAVEYARD TILESET</60>\r\n<SIZE=60>MAPLESTORY SUR SPRITERS-RESOURCE.COM</60>\r\n\n<SIZE=120>-
-    DEVELOPPEMENT -</120>\r\n<SIZE=100>JEREMY</100>\r\n<SIZE=100>AUDREY</100>\r\n\n<SIZE=120>MERCI
-    A TOI JOUEUR DU DIMANCHE</120>\r"
+  m_Text: "<SIZE=200><B>ZOMBIELAND</B>\r</SIZE>\r\n<SIZE=70>CREE PAR NEO CORPORATION</SIZE>\r\n\n<SIZE=120>-
+    GRAPHISMES -</SIZE>\r\n<SIZE=80>AUDREY FEURPRIER</SIZE>\r\n<SIZE=60><I>FREE GRAVEYARD
+    TILESET</I></SIZE>\r\n<SIZE=60><I>MAPLESTORY SPRITERS-RESOURCE.COM</I></SIZE>\r\n\n<SIZE=120>-
+    DEVELOPPEMENT -</SIZE>\r\n<SIZE=100>JEREMY LEBRUN</SIZE>\r\n<SIZE=100>AUDREY
+    FEURPRIER</SIZE>\r\n\n\r"
 --- !u!222 &2021327300
 CanvasRenderer:
   m_ObjectHideFlags: 0
