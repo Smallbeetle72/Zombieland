@@ -40032,11 +40032,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1801198578}
+    - target: {fileID: 6336967915675952064, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Text
+      value: OPTIONS
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336967915708706082, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Text
+      value: MENU
+      objectReference: {fileID: 0}
     - target: {fileID: 6336967915886958571, guid: 1851ecb81a093854d8b5dc831774cd76,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1801198577}
+    - target: {fileID: 6336967916027095961, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Text
+      value: CONTINUER
+      objectReference: {fileID: 0}
     - target: {fileID: 6336967916277409955, guid: 1851ecb81a093854d8b5dc831774cd76,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -40152,6 +40167,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6336967916505469776, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Text
+      value: PAUSE
+      objectReference: {fileID: 0}
     - target: {fileID: 6336967916728005599, guid: 1851ecb81a093854d8b5dc831774cd76,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -40161,6 +40181,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336967917087128216, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336967917087128216, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5137255
       objectReference: {fileID: 0}
     - target: {fileID: 6336967917087128217, guid: 1851ecb81a093854d8b5dc831774cd76,
         type: 3}
@@ -40172,16 +40202,41 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1801198577}
+    - target: {fileID: 6336967917149753809, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336967917149753809, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5137255
+      objectReference: {fileID: 0}
     - target: {fileID: 6336967917149753814, guid: 1851ecb81a093854d8b5dc831774cd76,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1801198578}
+    - target: {fileID: 6336967917195548444, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Text
+      value: APPUYER SUR ENTREE
+      objectReference: {fileID: 0}
     - target: {fileID: 6336967917237026474, guid: 1851ecb81a093854d8b5dc831774cd76,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1801198578}
+    - target: {fileID: 6336967917237026485, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336967917237026485, guid: 1851ecb81a093854d8b5dc831774cd76,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5137255
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1851ecb81a093854d8b5dc831774cd76, type: 3}
 --- !u!1001 &6531175966718680655

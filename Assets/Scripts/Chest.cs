@@ -21,7 +21,7 @@ public class Chest : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && isInRange)
+        if(Input.GetKeyDown(KeyCode.Return) && isInRange)
         {
             OpenChest();
         }
